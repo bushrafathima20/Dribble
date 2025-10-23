@@ -34,16 +34,16 @@ bush.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Al-Madinah dry fruits and nuts</title>
+  <title>Dribble</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #faf8fa;
+      background-color: #d9dee3;
     }
 
 
     .navbar {
-      background-color: rgb(204, 0, 255);
+      background-color: rgb(156, 199, 215);
       flex-direction: column;
       align-items: flex-start;
       padding-left: 40px;
@@ -52,7 +52,7 @@ bush.html
     }
 
     .navbar-brand {
-      color: white;
+      color: rgb(11, 8, 8);
       font-weight: bold;
       font-size: 24px;
     }
@@ -65,14 +65,14 @@ bush.html
     }
 
     .sub-links a {
-      color: #cccccc;
+      color: #1e1a14;
       text-decoration: none;
       font-size: 15px;
       transition: all 0.3s ease;
     }
 
     .sub-links a:hover {
-      color: rgb(255, 255, 255);
+      color: rgb(210, 177, 177);
       text-decoration: underline;
     }
 
@@ -85,7 +85,7 @@ bush.html
     .controls a {
       margin: 0 20px;
       font-size: 18px;
-      color: #7d6c6c;
+      color: #181115;
       text-decoration: none;
       position: relative;
       transition: all 0.3s ease;
@@ -95,7 +95,7 @@ bush.html
     .controls a::after {
       content: " ▼";
       font-size: 12px;
-      color: #7d6c79;
+      color: #6c757d;
     }
     .me-4{
       text-align: right;
@@ -103,7 +103,7 @@ bush.html
     }
     .controls a:hover {
       color: #000;
-      border-bottom: 3px solid #ffbc40;
+      border-bottom: 3px solid #9f7684;
       padding-bottom: 5px;
     }
 
@@ -149,24 +149,29 @@ bush.html
   
   <nav class="navbar">
     <div>
-      <a class="navbar-brand" href="#">Al-madinah</a>
+      <a class="navbar-brand" href="#">Dribble</a>
       <div class="sub-links">
-        <a href="#">Orders</a>
-        <a href="#">Cart</a>
-        <a href="#">Community</a>
+        <a href="#">Teams</a>
+        <a href="#">Designers</a>
+        <a href="#">community</a>
+        <a href="#">...</a>
       </div>
     </div>
   </nav>
   <div class="me-4">
    <ul class="nav navbar-nav navbar-right"></ul>
+        <li>Sign up  &nbsp;
+         Sign in
+             </li>
+
         </div>
 </nav>
 
   <nav class="nav navbar-default bg-danger text-white">
     <ul class="nav navbar-nav mx-auto py-3">
-        <p class="text-center">Nature's candy, packed with power! <span class="text-light">A handful of health in every bite.</span></p>
-       <li> <button type="button" class="btn btn-primary text-white">Learn more</button>
-        <button type="button" class="btn btn-danger">Sign in</button></li>
+        <p class="text-center">What are you working on? <span class="text-light">Dribble desing is intelligence made visible</span></p>
+       <li> <button type="button" class="btn btn-primary text-white">Learn More</button>
+         <button type="button" class="btn btn-danger">Sign up</button></li>
         
     </ul>
 </nav>
@@ -174,9 +179,9 @@ bush.html
 
   
   <div class="controls">
-    <a href="#">dry fruits</a>
-    <a href="#">nuts</a>
-    <a href="#">categories</a>
+    <a href="#">Popular</a>
+    <a href="#">Shots</a>
+    <a href="#">Now</a>
   </div>
 
   
@@ -185,9 +190,9 @@ bush.html
       <!-- Repeat your image cards -->
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="badam.webp" class="card-img-top" alt="">
+          <img src="Cosmetice.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Badam</h6>
+            <h6 class="card-title">Cosmetice</h6>
             
           </div>
         </div>
@@ -195,9 +200,9 @@ bush.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="pista.webp" class="card-img-top" alt="">
+          <img src="Fashion.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Pista</h6>
+            <h6 class="card-title">Fashion</h6>
             
           </div>
         </div> 
@@ -205,9 +210,9 @@ bush.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="cashew.webp" class="card-img-top" alt="">
+          <img src="Future .jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Cashew nut</h6>
+            <h6 class="card-title">Future</h6>
             
           </div>
         </div>
@@ -215,9 +220,9 @@ bush.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="dry grapes.jpg" class="card-img-top" alt="">
+          <img src="New Arrivals.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Dry grapes</h6>
+            <h6 class="card-title">New Arrivals</h6>
             
           </div>
         </div>
@@ -225,9 +230,9 @@ bush.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="dates.jpg" class="card-img-top" alt="">
+          <img src="Other Category.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Dates</h6>
+            <h6 class="card-title">Other Category</h6>
            
           </div>
         </div>
@@ -235,27 +240,27 @@ bush.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="dry fig.png" class="card-img-top" alt="">
+          <img src="store.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Dry fig</h6>
-            
+            <h6 class="card-title">Store</h6>
+        
           </div>
         </div>
       </div>
-    </div>
-  </div>
+        
 
   <footer>
-    <p>© Designed by I.Bushra Fathima(25007703)</p>
+    <p>© Designed by I.BUSHRA FATHIMA(25007703)</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-16 124522.png>)
+![alt text](<Screenshot 2025-10-23 203833.png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
